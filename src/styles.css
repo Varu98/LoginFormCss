@@ -1,0 +1,35 @@
+:root {
+  /* CSS HEX */
+  --sky-blue-crayola: #7bdff2ff;
+  --celeste: #b2f7efff;
+  --mint-cream: #eff7f6ff;
+  --piggy-pink: #f7d6e0ff;
+  --cotton-candy: #f2b5d4ff;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: var(--sky-blue-crayola);
+  color: #fff;
+}
+input {
+  background-color: var(--celeste);
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+button {
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: var(--cotton-candy);
+  color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
