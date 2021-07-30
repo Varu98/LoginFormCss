@@ -11,6 +11,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+#form {
+  text-align: center;
+  position: relative;
+  margin-top: 15rem;
+}
 body {
   background-color: var(--sky-blue-crayola);
   color: #fff;
